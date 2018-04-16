@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/playbottonn"
+        >
+        <scale
+            android:drawable="@drawable/playbottonn"
+            android:scaleHeight="60dp"
+            android:scaleWidth="60dp"
+            >
+
+        </scale>
+
+
+
+
+    </item>
+
+</selector>

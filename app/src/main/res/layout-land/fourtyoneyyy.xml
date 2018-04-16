@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activityy_eighteeny">
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip" >
+
+        <!--  The child Views/Layout to flip -->
+
+        <!--  Layout 1 for 1st Screen -->
+
+        <!--  Layout 2 for 2nd Screen -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rbedroom"
+            android:orientation="vertical" >
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowrrr"
+                android:id="@+id/button_41"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:onClick="goo_activyy_039"
+                android:background="@drawable/icondoor"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gggggggg"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/butsot3_2_7"
+                android:onClick="go_sot_salaty15"
+                android:layout_marginLeft="525dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true">
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:onClick="goo_activyy_039"
+                android:background="@drawable/icondoor"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+            </LinearLayout>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowlll"
+                android:id="@+id/button4_41"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rcityblockstreet"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/butsot3_2_3"
+                android:onClick="go_sot_salaty15"
+                android:layout_marginLeft="525dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+            <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:onClick="goo_activyy_039"
+            android:background="@drawable/icondoor"
+            android:layout_alignBottom="@+id/butsot3_2_3"
+            android:layout_alignParentStart="true">
+            </LinearLayout>
+            <Button
+                android:orientation="horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="325dp"
+                android:id="@+id/but3_2_39"
+                android:onClick="goo_activyy_042"
+                android:background="@drawable/carfrontred"
+                android:layout_below="@+id/button5_41"
+                android:layout_toStartOf="@+id/button5_41"
+                android:layout_marginEnd="165dp"></Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowrrr"
+                android:id="@+id/button5_41"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowlll"
+                android:id="@+id/button6_41"
+                android:layout_alignTop="@+id/button5_41"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rlevimgroom"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/butsot3_3_5"
+                android:onClick="go_sot_salaty15"
+                android:layout_marginLeft="525dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true">
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:onClick="goo_activyy_039"
+                android:background="@drawable/icondoor"
+                android:layout_alignBottom="@+id/butsot3_3_5"
+                android:layout_alignParentStart="true">
+            </LinearLayout>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowrrr"
+                android:id="@+id/button7_41"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowlll"
+                android:id="@+id/button8_41"
+                android:layout_alignTop="@+id/button7_41"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ViewFlipper>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/butsot3_2_5"
+        android:onClick="go_sot_salaty15"
+        android:background="@drawable/soundd"
+        android:layout_marginLeft="525dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+    </LinearLayout>
+</RelativeLayout>

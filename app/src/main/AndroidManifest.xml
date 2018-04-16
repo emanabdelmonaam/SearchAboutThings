@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.playgame2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="البحث عن المطلوب"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="landscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Activ_31"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_32"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name=".Activ_33"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name=".Activ_34"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name=".Activ_35"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_36"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_37"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_38"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_39"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_41"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_42"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_43"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_44"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_45"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_46"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_47"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_48"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".Activ_49"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name=".Break_50"
+            android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

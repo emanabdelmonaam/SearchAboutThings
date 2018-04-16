@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activityy_eighteeny">
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip" >
+
+        <!--  The child Views/Layout to flip -->
+
+        <!--  Layout 1 for 1st Screen -->
+
+        <!--  Layout 2 for 2nd Screen -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rbedroom"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="0.3"
+                android:id="@+id/butsot3_2_3"
+                android:onClick="go_audio3_001"
+                android:background="@drawable/soundd"
+                android:layout_marginLeft="525dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true">
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:onClick="goo_activyy_031"
+                android:background="@drawable/icondoor"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+            </LinearLayout>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowrrr"
+                android:id="@+id/button_2"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rlevimgroom"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:onClick="goo_activyy_031"
+                android:background="@drawable/icondoor"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+            </LinearLayout>
+            <Button
+                android:orientation="horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.3"
+                android:layout_marginLeft="425dp"
+                android:background="@drawable/keygreen"
+                android:layout_marginTop="180dp"
+                android:id="@+id/but3_2_4"
+                android:onClick="goo_activyy_033"
+                android:layout_gravity="right">
+            </Button>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/arrowlll"
+                android:id="@+id/button4_2"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </ViewFlipper>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_weight="0.3"
+        android:id="@+id/butsot3_3_3"
+        android:onClick="go_audio3_001"
+        android:background="@drawable/soundd"
+        android:layout_marginLeft="525dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+    </LinearLayout>
+</RelativeLayout>
